@@ -1,16 +1,43 @@
 # housing-advanced-regression-assignment
 
-# Problem Statement - Part I
+## Table of Contents
+
+* [General Information](#general-information)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
+* [Contact](#contact)
+
+# General Information
 
 A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
 The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+
+## Problem Statement - Part I
 
 The company wants to know:
 
 - Which variables are significant in predicting the price of a house, and
 - How well those variables describe the price of a house.
 - Also, determine the optimal value of lambda for ridge and lasso regression.
+
+## Problem Statement - Part II
+
+### Question 1
+
+What is the optimal value of alpha for ridge and lasso regression? What will be the changes in the model if you choose double the value of alpha for both ridge and lasso? What will be the most important predictor variables after the change is implemented?
+
+### Question 2
+
+You have determined the optimal value of lambda for ridge and lasso regression during the assignment. Now, which one will you choose to apply and why?
+
+### Question 3
+
+After building the model, you realised that the five most important predictor variables in the lasso model are not available in the incoming data. You will now have to create another model excluding the five most important predictor variables. Which are the five most important predictor variables now?
+
+### Question 4
+
+How can you make sure that a model is robust and generalisable? What are the implications of the same for the accuracy of the model and why?
 
 # Business Goal
 
@@ -541,3 +568,26 @@ You are required to model the price of houses with the available independent var
        Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
        Family	Sale between family members
        Partial	Home was not completed when last assessed (associated with New Homes)
+
+# Technologies Used
+
+![Python](https://img.shields.io/badge/Python-3.10-informational?style=flat&logoColor=white&color=2bbc8a)
+![NumPy](https://img.shields.io/badge/NumPy-1.21.5-informational?style=flat&logoColor=white&color=2bbc8a)
+![Pandas](https://img.shields.io/badge/Pandas-1.3.5-informational?style=flat&logoColor=white&color=2bbc8a)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.1-informational?style=flat&logoColor=white&color=2bbc8a)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.11.2-informational?style=flat&logoColor=white&color=2bbc8a)
+![sklearn](https://img.shields.io/badge/Sklearn-1.0.2-informational?style=flat&logoColor=white&color=2bbc8a)
+![statsmodels](https://img.shields.io/badge/statsmodels-0.13.1-informational?style=flat&logoColor=white&color=2bbc8a)
+![scipy](https://img.shields.io/badge/scipy-1.8.0-informational?style=flat&logoColor=white&color=2bbc8a)
+
+# Conclusions
+
+Please see the notebook for more detailed insights.
+
+1. The predictor that holds the utmost significance is `GrLivArea`.
+2. The most prominent variables are easily understandable.
+3. The final model has selected Lasso as its preferred choice due to its ability to create a straightforward model while retaining the most important features.
+
+# Contact
+
+Created by [@sanjayakumarsahoo] - feel free to contact me!
