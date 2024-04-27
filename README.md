@@ -582,7 +582,7 @@ You are required to model the price of houses with the available independent var
 
 # Conclusions
 
-Please see the notebook for more detailed insights.
+Please refer to the notebook for further elaboration.
 
 1. The predictor that holds the utmost significance is `GrLivArea`.
 2. The most prominent variables are easily understandable.
